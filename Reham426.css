@@ -96,6 +96,7 @@ margin-top: 12px;
         top:15em;
         left: 55em;
         
+        
     }
     .sec3-text h1{
         font-size: xx-large;
@@ -105,20 +106,30 @@ margin-top: 12px;
     margin-top: 10px;
 }
 .sec3-text a{
-    
+    position: absolute;
     text-decoration: none;
     border: 2px solid blueviolet;
     border-radius: 5px; 
     padding: 15px 30px;
     background-color: blueviolet;
     color: aliceblue;
+    margin-top: 20px;
+    
 
 }
+
+
+/*.sec3-back .sec3-text {
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    margin-top: 50px;
+    
+}*/
   
-.sec3-text a:hover{
-   height: 100px;
-   width: 100px;
-   box-shadow: 0 0 0 3px rgb(69, 64, 64 ,0.3);
+.sec3-back .sec3-text button:hover{
+  
+   box-shadow: 0 0 0 3px rgba(197, 182, 182, 0.3);
 }
 
 
@@ -131,7 +142,17 @@ margin-top: 12px;
      top: 36em;
     left: 10px;
 
+
 }
+
+
+
+
+.le-2-1 input{
+    accent-color:purple;
+}
+
+
 .sec4-ip{
     display: flex;
 
